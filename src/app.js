@@ -26,7 +26,6 @@ async function tapLoop(token, id, maxTapsPerSubmit) {
   const maxTouchPoints = 5;
 
   try {
-    // load response from https://api.tapswap.club/api/account/challenge, updates every hour, look at tests/login_ts.js
     let response = await loadJSON("./response.json");
 
     if (!response) {

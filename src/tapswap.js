@@ -16,7 +16,7 @@ const headers = {
   "sec-fetch-mode": "cors",
   "sec-fetch-site": "same-site",
   "x-app": "tapswap_server",
-  "x-cv": "652", //build version //TonWalletButton this.log.info("[AppContext] buildNum: 652"),
+  "x-cv": "", //build version //TonWalletButton this.log.info("[AppContext] buildNum: 652"),
   "x-touch": "1",
   Referer: "https://app.tapswap.club/",
   "Referrer-Policy": "strict-origin-when-cross-origin",

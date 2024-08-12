@@ -1,3 +1,4 @@
 node_modules
 .vscode/*
 !.vscode/extensions.json
+scriptForTouch.js

@@ -16,25 +16,9 @@
 4. In the copied URL, find the parameter `tgWebAppPlatform=web` and change it to `tgWebAppPlatform=android`.
 5. Paste the updated URL into your browser and go to that URL.
 
-You will be redirected to tapswap. However you won't be able to play it for now.
-![tapswap-loader](./src/assets/tapswap-loader.png)
-
-### Step 2: Installing the Chrome Extension
-
-1. Install the Chrome extension called [`Resource Override`](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii?utm_source=ext_app_menu).
-2. Open the extension and click the `"Add Rule"` button.
-3. Select `"Inject File"` and click `"Edit File"`.
-4. Copy the contents of the [`./scriptForTouch.js`](./scriptForTouch.js) file and paste it into the edit window.
-5. Save your changes by clicking the `"Save"` button.
-
-### Step 3: Opening the Game in the Browser
-
-1. Open the game in the browser using the URL you modified in the previous steps.
-2. Now, you can collect Tapswap tokens by clicking on the screen.
-
 ![tapswap](./src/assets/tapswap.png)
 
-### Step 4: Automating the Process
+### Step 2: Automating the Process
 
 1. Open Developer Tools in your browser.
 2. Go to the Network tab.
@@ -73,25 +57,7 @@ Now the process is automated. And you can easily mine tokens.
 4. В скопированном URL найдите параметр `tgWebAppPlatform=web` и измените его на `tgWebAppPlatform=android`.
 5. Вставьте измененный URL в браузер и перейдите по нему.
 
-Вы будете перенаправлены на Tapswap. Однако на данном этапе вы не сможете играть.
-![tapswap-loader](./src/assets/tapswap-loader.png)
-
-### Шаг 2: Установка расширения Chrome
-
-1. Установите расширение Chrome под названием [`Resource Override`](https://chromewebstore.google.com/detail/resource-override/pkoacgokdfckfpndoffpifphamojphii?utm_source=ext_app_menu).
-2. Откройте расширение и нажмите кнопку `"Add Rule"`.
-3. Выберите `"Inject File"` и нажмите `"Edit File"`.
-4. Скопируйте содержимое файла [`./scriptForTouch.js`](./scriptForTouch.js) и вставьте его в окно редактирования.
-5. Сохраните изменения, нажав кнопку `"Save"`.
-
-### Шаг 3: Открытие игры в браузере
-
-1. Откройте игру в браузере, используя URL, который вы изменили на предыдущих шагах.
-2. Теперь вы можете собирать токены Tapswap, тапая на экран.
-
-![tapswap](./src/assets/tapswap.png)
-
-### Шаг 4: Автоматизация процесса
+### Шаг 2: Автоматизация процесса
 
 1. Откройте Инструменты разработчика в браузере.
 2. Перейдите на вкладку Network.

@@ -4,21 +4,9 @@
 
 1. Install Node.js and npm if you haven't already
 2. Clone the repository
+3. Open Tapswap in Web Telegram.
 
-### Step 1: Getting the URL
-
-1. Open Tapswap in Web Telegram.
-2. Open Developer Tools and locate the `iframe` on the page.
-3. Copy the value of the `src` attribute from this `iframe`.
-
-![tapswap-iframe](./src/assets/tapswap-iframe.jpg)
-
-4. In the copied URL, find the parameter `tgWebAppPlatform=web` and change it to `tgWebAppPlatform=android`.
-5. Paste the updated URL into your browser and go to that URL.
-
-![tapswap](./src/assets/tapswap.png)
-
-### Step 2: Automating the Process
+### Automating the Process
 
 1. Open Developer Tools in your browser.
 2. Go to the Network tab.
@@ -45,19 +33,9 @@ Now the process is automated. And you can easily mine tokens.
 
 1. Установите Node.js и npm, если они еще не установлены.
 2. Клонируйте репозиторий.
+3. Откройте Tapswap в Web Телеграм.
 
-### Шаг 1: Получение URL
-
-1. Откройте Tapswap в Web Telegram.
-2. Откройте Инструменты разработчика и найдите `iframe` на странице.
-3. Скопируйте значение атрибута `src` этого `iframe`.
-
-![tapswap-iframe](./src/assets/tapswap-iframe.jpg)
-
-4. В скопированном URL найдите параметр `tgWebAppPlatform=web` и измените его на `tgWebAppPlatform=android`.
-5. Вставьте измененный URL в браузер и перейдите по нему.
-
-### Шаг 2: Автоматизация процесса
+### Автоматизация процесса
 
 1. Откройте Инструменты разработчика в браузере.
 2. Перейдите на вкладку Network.
